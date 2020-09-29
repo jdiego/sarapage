@@ -5,7 +5,8 @@ import BootstrapProvider from '@bootstrap-styled/provider/lib/BootstrapProvider'
 import Topbar from '../../components/Topbar';
 import Hero from '../../components/Hero';
 import About from '../../components/About';
-
+import Intro from '../../components/Intro';
+import Tarot from '../../components/Tarot';
 function Home() {
   return (
 
@@ -14,7 +15,8 @@ function Home() {
       <Topbar/>
       <Hero/>
       <About/>
-
+      <Intro/>
+      <Tarot/>
     </BootstrapProvider>
   );
 }
