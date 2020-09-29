@@ -13,12 +13,12 @@ function Intro() {
                         <S.Lead>
                         O Tarot é uma ferramenta de autoconhecimento com 78 cartas, por meio da qual podemos fazer previsões. Assim, 
                         algo pode ser <S.Highlight>PRÉ-VISTO</S.Highlight> e, com isso, <S.Highlight>PRÉ-ANALISADO</S.Highlight>, 
-                        para que, com nosso livre arbítrio, tenhamos <S.Highlight>CONSCIÊNCIA</S.Highlight> e possamos fazer 
-                        <S.Highlight>ESCOLHAS</S.Highlight> melhores
+                        para que, com nosso livre arbítrio, tenhamos <S.Highlight>CONSCIÊNCIA</S.Highlight> e 
+                        possamos fazer <S.Highlight>ESCOLHAS</S.Highlight> melhores
                         </S.Lead>
                     </Col>
                 </Row>
-                <Row className="mt-4">
+                <Row className="mt-5">
                     <Col lg="4">
                         <h2>Autoconhecimento</h2>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies 
