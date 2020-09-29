@@ -9,7 +9,7 @@ function Topbar() {
 
 
     return (
-        <S.TopBar toggleable="lg">
+        <S.TopBar light toggleable="lg">
 
             <Container fluid={true}>
 
