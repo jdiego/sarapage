@@ -11,12 +11,13 @@ function Tarot() {
     return (
         <S.SectionTarot>
             <Container className="py-5" fluid={false}>
+
                 <Row>
                     <Col lg="4">
                         <Img src={Tarot1} fluid={true}></Img>
                     </Col>
                     <Col lg="6">
-                        <S.CardTarot className="mb-4 shadow-sm">
+                        <S.CardTarot className="mb-4">
                             <S.CardBlockTarot>
                                 <S.CardTextTarot>
                                     As consultas utilizam o Tarot para leitura divinatória e também associo-a 
@@ -27,9 +28,10 @@ function Tarot() {
                         </S.CardTarot>
                     </Col>
                 </Row>
-                <Row className="my-4">
+
+                <Row className="my-5">
                     <Col lg="6">
-                        <S.CardTarot className="mb-4 shadow-sm">
+                        <S.CardTarot className="mb-4">
                             <S.CardBlockTarot>
                                 <S.CardTextTarot>
                                     A leitura de Tarot é baseada numa técnica de tradução das simbologias das figuras das cartas e suas análises combinatórias. 
@@ -43,12 +45,13 @@ function Tarot() {
                         <Img src={Tarot2} fluid={true}></Img>
                     </Col>
                 </Row>
-                <Row className="my-4">
+
+                <Row className="my-5">
                     <Col lg="4">
                         <Img src={Tarot3} fluid={true}></Img>
                     </Col>
                     <Col lg="6">
-                        <S.CardTarot className="mb-4 shadow-sm">
+                        <S.CardTarot className="mb-4 ">
                             <S.CardBlockTarot>
                                 <S.CardTextTarot>
                                 Por vezes, ao término da consulta, oriento ao consulente a fazer udo de florais australiano e/ou aromas 
@@ -59,6 +62,7 @@ function Tarot() {
                         </S.CardTarot>
                     </Col>
                 </Row>
+                
             </Container>
         </S.SectionTarot>
     );

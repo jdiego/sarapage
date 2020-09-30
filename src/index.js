@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './pages/Home'
+import Routes from './routes'
+import './index.css'
 
-ReactDOM.render( <Home/> , document.getElementById("root"))
+ReactDOM.render(
+  <React.StrictMode>
+    <Routes />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

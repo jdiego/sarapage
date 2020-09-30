@@ -14,11 +14,14 @@ export const DivTarot =  styled.div `
 
 export const CardTarot = styled(Card) `
     background-color: #DABFE3 !important;
+    height: 16.8rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+
 `
 export const CardBlockTarot = styled(CardBlock) `
  
 `
 export const CardTextTarot = styled(CardText) `
-    color: black;
+    color: #555ea0;
  
 `
