@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Row, Col, Container, Image } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col, Container } from 'react-bootstrap';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 //
@@ -34,12 +34,15 @@ function Testimonials() {
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
+        speed: 2000,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        cssEase: "linear"
     };
 
     return (
@@ -47,7 +50,7 @@ function Testimonials() {
             <Container className="mt-5 mb-5">
                 <Row>
                     <Col lg="5" md="6">
-                        <h3 className="mt-4"> Depoimentos</h3>
+                        <S.Title className="mt-4"> Depoimentos</S.Title>
                         <S.Devider className="d-inline-block my-3"></S.Devider>
                         <p>We care what our customers think of us and so should you. 
                             We are partners in your business and your success.
@@ -67,7 +70,7 @@ function Testimonials() {
                                 </S.Card>
                                 <div className="d-flex align-items-center ml-3">
                                     <S.ImageThumb src={Tarot1} alt="" className="rounded-circle mr-3" />
-                                    <h6 className="font-weight-bold mb-0">Michael Anderson</h6><S.P13>Project client</S.P13>
+                                    <h6 className="font-weight-bold mb-0">Mrs. Anderson</h6> <S.P13> Matrix</S.P13>
                                 </div>
                             </S.CarouselItem>
                             <S.CarouselItem>
@@ -81,8 +84,8 @@ function Testimonials() {
                                     </div>
                                 </S.Card>
                                 <div className="d-flex align-items-center ml-3">
-                                    <S.ImageThumb src={Tarot1} alt="" className="rounded-circle mr-3" />
-                                    <h6 className="font-weight-bold mb-0">Michael Anderson</h6><S.P13>Project client</S.P13>
+                                    <S.ImageThumb src={Tarot2} alt="" className="rounded-circle mr-3" />
+                                    <h6 className="font-weight-bold mb-0">Jane Doe</h6><S.P13> Blindspot</S.P13>
                                 </div>
                             </S.CarouselItem>
                         <S.CarouselItem>
@@ -96,8 +99,8 @@ function Testimonials() {
                                 </div>
                             </S.Card>
                             <div className="d-flex align-items-center ml-3">
-                                <S.ImageThumb src={Tarot1} alt="" className="rounded-circle mr-3" />
-                                <h6 className="font-weight-bold mb-0">Michael Anderson</h6><S.P13>Project client</S.P13>
+                                <S.ImageThumb src={Tarot3} alt="" className="rounded-circle mr-3" />
+                                <h6 className="font-weight-bold mb-0">Dexter</h6><S.P13> Dexter</S.P13>
                             </div>
                         </S.CarouselItem>
                         </S.Carousel>
