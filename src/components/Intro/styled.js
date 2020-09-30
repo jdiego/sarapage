@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Section } from '@bootstrap-styled/v4';
+import { Section, Container } from '@bootstrap-styled/v4';
 
 
 export const SectionIntro = styled(Section) `
@@ -14,7 +14,14 @@ export const Lead = styled.p `
     text-justify: inter-word;
 `
 export const Highlight = styled.span `
-    background-color: #DABFE3;
+    background-color: rgb(218,191,227, 0.6);
+    padding: 0.3rem;
     color: white;
-    text-transformation: uppercase;
+`
+
+export const Wrapper = styled(Container)`
+    /* width: 100%; */
+    /* height: 16.8rem; */
+    background-color: #DABFE3;
+    /* display: flex; */
 `

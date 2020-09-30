@@ -8,7 +8,7 @@ function Hero() {
  
     return (
         <S.SectionHero>
-            <Container className="py-5" fluid={true}>
+            <Container className="py-5" fluid={false}>
                 <Row className="align-items-center">
                     <Col lg="6" className="text-center mx-auto">
                         <Img src={card} className="mb-4" alt="Logo Sara"/>
