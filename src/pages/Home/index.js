@@ -7,6 +7,7 @@ import Hero from '../../components/Hero';
 import About from '../../components/About';
 import Intro from '../../components/Intro';
 import Tarot from '../../components/Tarot';
+import Footer from '../../components/Footer';
 function Home() {
   return (
 
@@ -17,6 +18,7 @@ function Home() {
       <About/>
       <Intro/>
       <Tarot/>
+      <Footer/>
     </BootstrapProvider>
   );
 }
