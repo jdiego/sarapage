@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Img } from '@bootstrap-styled/v4';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 //
 import * as S from './styled.js';
 import Tarot1 from '../../assets/tarot1.png';
@@ -14,7 +14,7 @@ function Tarot() {
 
                 <Row>
                     <Col lg="4">
-                        <Img src={Tarot1} fluid={true}></Img>
+                        <Image src={Tarot1} fluid={true}/>
                     </Col>
                     <Col lg="6">
                         <S.CardTarot className="mb-4">
@@ -42,13 +42,13 @@ function Tarot() {
                         </S.CardTarot>
                     </Col>
                     <Col lg="4">
-                        <Img src={Tarot2} fluid={true}></Img>
+                        <Image src={Tarot2} fluid={true}></Image>
                     </Col>
                 </Row>
 
                 <Row className="my-5">
                     <Col lg="4">
-                        <Img src={Tarot3} fluid={true}></Img>
+                        <Image src={Tarot3} fluid={true}></Image>
                     </Col>
                     <Col lg="6">
                         <S.CardTarot className="mb-4 ">

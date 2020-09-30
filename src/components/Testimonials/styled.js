@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Section } from '@bootstrap-styled/v4';
+import { Section } from 'react-bootstrap';
 
 
 export const SectionTestimonials = styled(Section) `

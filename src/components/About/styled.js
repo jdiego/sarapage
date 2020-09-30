@@ -1,15 +1,18 @@
 import styled from 'styled-components';
-import { Section } from '@bootstrap-styled/v4';
 
 
-export const SectionAbout = styled(Section)`
+export const SectionAbout = styled.section`
     background-color: #DABFE3;
 `
 
 export const Lead = styled.p`
     font-family: 'Comfortaa', cursive;
+    font-size: 1.4rem;
 `
 export const About = styled.h1`
+    font-family: 'Comfortaa', cursive;
+    font-size: 3.0rem;
+    font-weight: 600;
     color:#FF3399;
 
 `

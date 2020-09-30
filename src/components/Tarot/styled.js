@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { Section, Card,  CardBlock, CardText } from '@bootstrap-styled/v4';
+import { Card } from 'react-bootstrap';
 
 
-export const SectionTarot = styled(Section) `
+export const SectionTarot = styled.section`
     background-color: #C1C7F3;
     color: white;
     font-family: 'Comfortaa', cursive;
@@ -18,10 +18,10 @@ export const CardTarot = styled(Card) `
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
 
 `
-export const CardBlockTarot = styled(CardBlock) `
+export const CardBlockTarot = styled(Card.Body) `
  
 `
-export const CardTextTarot = styled(CardText) `
+export const CardTextTarot = styled(Card.Text) `
     color: #555ea0;
  
 `

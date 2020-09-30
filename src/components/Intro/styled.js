@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { Section, Container } from '@bootstrap-styled/v4';
+import { Container } from 'react-bootstrap';
 
 
-export const SectionIntro = styled(Section) `
+export const SectionIntro = styled.section `
     background-color: #858CBC;
     color: white;
 `

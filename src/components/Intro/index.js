@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from '@bootstrap-styled/v4';
+import { Container, Row, Col } from 'react-bootstrap';
 //
 import * as S from './styled.js';
 

@@ -1,5 +1,4 @@
 import React from "react";
-import BootstrapProvider from '@bootstrap-styled/provider/lib/BootstrapProvider';
 
 // import sections
 import Topbar from '../../components/Topbar';
@@ -10,16 +9,14 @@ import Tarot from '../../components/Tarot';
 import Footer from '../../components/Footer';
 function Home() {
   return (
-
-    <BootstrapProvider>
-
-      <Topbar/>
-      <Hero/>
-      <About/>
-      <Intro/>
-      <Tarot/>
-      <Footer/>
-    </BootstrapProvider>
+      <section id="main">
+        <Topbar />
+        <Hero />
+        <About />
+        <Intro />
+        <Tarot />
+        <Footer />
+      </section>
   );
 }
 
