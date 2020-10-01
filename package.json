@@ -1,7 +1,7 @@
 {
   "name": "sarapage",
   "version": "0.1.0",
-  "homepage": "https://jdiego.github.io/sarapage/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@bootstrap-styled/provider": "^2.0.2",
