@@ -4,9 +4,9 @@ import Home from './pages/Home';
 
 function Routes (){
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
-                <Route path="/" exact component={Home}/>
+                <Route path="/" exact component={Home} />
             </Switch>
         </BrowserRouter>
     )
