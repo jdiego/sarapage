@@ -12,7 +12,7 @@ function Tarot() {
         <S.SectionTarot>
             <Container className="py-5" fluid={false}>
 
-                <Row>
+                <Row className="justify-content-center">
                     <Col lg="4">
                         <Image src={Tarot1} fluid={true}/>
                     </Col>
@@ -29,7 +29,7 @@ function Tarot() {
                     </Col>
                 </Row>
 
-                <Row className="my-5">
+                <Row className="my-5 justify-content-center">
                     <Col lg="6">
                         <S.CardTarot className="mb-4">
                             <S.CardBlockTarot>
@@ -46,7 +46,7 @@ function Tarot() {
                     </Col>
                 </Row>
 
-                <Row className="my-5">
+                <Row className="my-5 justify-content-center"> 
                     <Col lg="4">
                         <Image src={Tarot3} fluid={true}></Image>
                     </Col>

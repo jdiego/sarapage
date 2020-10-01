@@ -6,11 +6,9 @@ export const SectionAbout = styled.section`
 `
 
 export const Lead = styled.p`
-    font-family: 'Comfortaa', cursive;
-    font-size: 1.4rem;
+   font-size: 1.4rem;
 `
 export const About = styled.h1`
-    font-family: 'Comfortaa', cursive;
     font-size: 3.0rem;
     font-weight: 600;
     color:#FF3399;

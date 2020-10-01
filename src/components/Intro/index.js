@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-//
+import { FaShareAlt, FaSmile } from 'react-icons/fa'
+import { MdTrendingUp } from 'react-icons/md'
+// 
 import * as S from './styled.js';
 
 function Intro() {
@@ -18,32 +20,36 @@ function Intro() {
                         </S.Lead>
                     </Col>
                 </Row>
-                <Row className="mt-5">
-                    <S.Wrapper>
-                        <Row>
+                
+                    <S.Wrapper className = "mt-5">
+                        <Row className = "p-5"> 
 
-                            <Col lg="4">
-                                <h2>Autoconhecimento</h2>
-                                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies 
-                                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna
-                                </p>.
-                            </Col>
+                            <S.BenefitsCol lg="4">
+                                <S.IconCircle>
+                                    <FaShareAlt style={{color:"#555ea0", fontSize:"1.5rem"}}/>
+                                </S.IconCircle>
+                                <h3>Autoconhecimento</h3>
+                                <p>Se conheça mais</p>.
+                            </S.BenefitsCol>
 
-                            <Col lg="4">
-                                <h2>Desenvolvimento</h2>
-                                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies 
-                                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna
-                                </p>.
-                            </Col>
-                            <Col lg="4">
-                                <h2>Consciência</h2>
-                                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies 
-                                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna
-                                </p>.
-                            </Col>
+                            <S.BenefitsCol lg="4">
+                                <S.IconCircle>
+                                    <MdTrendingUp style={{color:"#555ea0", fontSize:"1.5rem"}}/>
+                                </S.IconCircle>
+                                <h3>Desenvolvimento</h3>
+                                <p> Esteja em constante melhoria </p>.
+                            </S.BenefitsCol>
+
+                            <S.BenefitsCol lg="4">
+                                <S.IconCircle>
+                                    <FaSmile style={{color:"#555ea0", fontSize:"1.5rem"}}/>
+                                </S.IconCircle>
+                                <h3>Consciência</h3>
+                                <p> Perceba e esteja presente no agora </p>.
+                            </S.BenefitsCol>
                         </Row>
                     </S.Wrapper>
-                </Row>
+  
             </Container>
         </S.SectionIntro>
     );

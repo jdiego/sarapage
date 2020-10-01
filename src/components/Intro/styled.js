@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Container } from 'react-bootstrap';
+import { Container, Col } from 'react-bootstrap';
 
 
 export const SectionIntro = styled.section `
@@ -9,7 +9,7 @@ export const SectionIntro = styled.section `
 export const Lead = styled.p `
     font-size: 2.0rem;
     line-height: 1.5;
-    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Comfortaa', cursive; */
     text-align: justify;
     text-justify: inter-word;
 `
@@ -20,8 +20,22 @@ export const Highlight = styled.span `
 `
 
 export const Wrapper = styled(Container)`
-    /* width: 100%; */
-    /* height: 16.8rem; */
     background-color: #DABFE3;
-    /* display: flex; */
+
+`
+
+export const BenefitsCol = styled(Col)`
+    text-align: center;
+    color:#555ea0;
+`
+export const IconCircle = styled.div`
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    margin: 1rem auto;
+    text-align: center;
+    width: 3rem;
 `
