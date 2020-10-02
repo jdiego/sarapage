@@ -15,8 +15,12 @@ export const Carousel = styled(Slider) `
 export const CarouselItem = styled.div `
 `
 export const Title = styled.h1 `
-    font-weight: 300;
     color:#FF3399;
+    font-size: 3.0rem;
+    line-height: 0.5;   
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+
 `
 
 export const ImageThumb = styled(Image) `

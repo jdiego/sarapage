@@ -7,6 +7,7 @@ import About from '../../components/About';
 import Intro from '../../components/Intro';
 import Tarot from '../../components/Tarot';
 import Testimonials from '../../components/Testimonials';
+import Products from '../../components/Products';
 import Footer from '../../components/Footer';
 
 
@@ -19,6 +20,7 @@ function Home() {
         <Intro />
         <Tarot />
         <Testimonials />
+        <Products />
         <Footer />
       </section>
   );
