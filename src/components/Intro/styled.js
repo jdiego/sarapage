@@ -21,7 +21,7 @@ export const Highlight = styled.span `
 
 export const Wrapper = styled(Container)`
     background-color: #DABFE3;
-
+    position: relative;
 `
 
 export const BenefitsCol = styled(Col)`

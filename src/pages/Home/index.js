@@ -8,6 +8,7 @@ import Intro from '../../components/Intro';
 import Tarot from '../../components/Tarot';
 import Testimonials from '../../components/Testimonials';
 import Products from '../../components/Products';
+import Social from '../../components/Social';
 import Footer from '../../components/Footer';
 
 
@@ -21,6 +22,7 @@ function Home() {
         <Tarot />
         <Testimonials />
         <Products />
+        <Social />
         <Footer />
       </section>
   );

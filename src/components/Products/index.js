@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, Image } from 'react-bootstrap';
+import { Container, Row, Col, Card} from 'react-bootstrap';
 //
 import * as S from './styled.js';
 import Image1 from '../../assets/service1.png';
@@ -19,7 +19,7 @@ function Products() {
                     <Col md="4">
                         <S.ProductCard className="my-5">
                             <S.ProductCardBody className="text-center">
-                                <S.ProductImage src={Image1} fuild={true}/>
+                                <S.ProductImage src={Image1} fluid/>
                                 <Card.Title className="mt-3 text-center">
                                     Card title
                                 </Card.Title>
@@ -33,7 +33,7 @@ function Products() {
                     <Col md="4">
                         <S.ProductCard className="my-5">
                             <S.ProductCardBody className="text-center">
-                                <S.ProductImage src={Image2} fuild={true}/>
+                                <S.ProductImage src={Image2} fluid/>
                                 <Card.Title className="mt-3 text-center">
                                     Card title
                                 </Card.Title>
@@ -48,7 +48,7 @@ function Products() {
                     <Col md="4">
                         <S.ProductCard className="my-5">
                             <S.ProductCardBody className="text-center">
-                                <S.ProductImage src={Image3} fuild={true}/>
+                                <S.ProductImage src={Image3} fluid/>
                                 <Card.Title className="mt-3 text-center">
                                     Card title
                                 </Card.Title>
