@@ -9,6 +9,7 @@ import Tarot from '../../components/Tarot';
 import Testimonials from '../../components/Testimonials';
 import Products from '../../components/Products';
 import Social from '../../components/Social';
+import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
 
 
@@ -23,6 +24,7 @@ function Home() {
         <Testimonials />
         <Products />
         <Social />
+        <Contact/>
         <Footer />
       </section>
   );
