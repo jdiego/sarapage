@@ -8,13 +8,17 @@ export const SectionProducts = styled.section `
 `
 export const ProductCard = styled(Card) `
     background-color: #858CBC !important;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: scale(1.15)
+    }
 `
 export const ProductCardBody = styled(Card.Body) `
-    background-color: #858CBC !important;
 `
 export const ProductImage = styled(Image) `
-    width:200px;
-    height:200px;
+    width:100%;
+    height:100%;
     object-fit:fill;
 
 `
@@ -23,7 +27,6 @@ export const ProductTitle = styled.h1`
     font-size: 3.0rem;
     line-height: 0.5;   
     font-weight: bold;
-    font-family: 'Comfortaa', cursive;
 
 `
 export const ProductLink = styled.a`

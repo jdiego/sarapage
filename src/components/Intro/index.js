@@ -24,25 +24,25 @@ function Intro() {
                     <S.Wrapper className = "mt-5">
                         <Row className = "p-5">
 
-                            <S.BenefitsCol lg="4">
-                                <S.IconCircle>
-                                    <FaShareAlt style={{color:"#555ea0", fontSize:"1.5rem"}}/>
+                            <S.BenefitsCol lg="4" >
+                                <S.IconCircle style={{background: "#926FF6"}}>
+                                    <FaShareAlt style={{color: "white", fontSize:"1.5rem"}}/>
                                 </S.IconCircle>
                                 <h3>Autoconhecimento</h3>
                                 <p>Se conheça mais</p>.
                             </S.BenefitsCol>
 
                             <S.BenefitsCol lg="4">
-                                <S.IconCircle>
-                                    <MdTrendingUp style={{color:"#555ea0", fontSize:"1.5rem"}}/>
+                                <S.IconCircle style={{background: "#F3849F"}}>
+                                    <MdTrendingUp style={{color: "white", fontSize:"1.5rem"}}/>
                                 </S.IconCircle>
                                 <h3>Desenvolvimento</h3>
                                 <p> Esteja em constante melhoria </p>.
                             </S.BenefitsCol>
 
                             <S.BenefitsCol lg="4">
-                                <S.IconCircle>
-                                    <FaSmile style={{color:"#555ea0", fontSize:"1.5rem"}}/>
+                                <S.IconCircle style={{background: "#79CFFF"}}>
+                                    <FaSmile style={{color:"white", fontSize:"1.5rem"}}/>
                                 </S.IconCircle>
                                 <h3>Consciência</h3>
                                 <p> Perceba e esteja presente no agora </p>.

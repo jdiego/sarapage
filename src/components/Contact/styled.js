@@ -5,6 +5,7 @@ export const SectionContact = styled.section`
     color: #DABFE3;
     padding: 25px 0;
     background: #858CBC;
+    overflow:auto;
 
 `
 export const ContactTitle = styled.h1 `

@@ -47,7 +47,7 @@ function Testimonials() {
 
     return (
         <S.SectionTestimonials classNameName="mb-4 py-5">
-            <Container className="mt-5 mb-5">
+            <Container className="my-5">
                 <Row>
                     <Col lg="5" md="6">
                         <S.Title className="mt-4"> Depoimentos</S.Title>
@@ -59,7 +59,7 @@ function Testimonials() {
                     <Col lg="6" className="ml-auto">
                         <S.Carousel {...settings}>
                             <S.CarouselItem>
-                                <S.Card className="card-shadow border-0 mb-4 position-relative">
+                                <S.Card >
                                     <div className="p-4">
                                         <S.H5>WrapKit has given our websites huge national presence.
                                         We are #1 on page one in Google search results for every website we’ve built,
@@ -74,7 +74,7 @@ function Testimonials() {
                                 </div>
                             </S.CarouselItem>
                             <S.CarouselItem>
-                                <S.Card className="card-shadow border-0 mb-4 position-relative">
+                                <S.Card>
                                     <div className="p-4">
                                         <S.H5>WrapKit has given our websites huge national presence.
                                         We are #1 on page one in Google search results for every website we’ve built,
@@ -89,7 +89,7 @@ function Testimonials() {
                                 </div>
                             </S.CarouselItem>
                         <S.CarouselItem>
-                            <S.Card className="card-shadow border-0 mb-4 position-relative">
+                            <S.Card>
                                 <div className="p-4">
                                     <S.H5>WrapKit has given our websites huge national presence.
                                     We are #1 on page one in Google search results for every website we’ve built,

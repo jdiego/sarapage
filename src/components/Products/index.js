@@ -17,7 +17,7 @@ function Products() {
                 </Row>
                 <Row>
                     <Col md="4">
-                        <S.ProductCard className="my-5">
+                        <S.ProductCard className="my-5 mx-2 p-2">
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image1} fluid/>
                                 <Card.Title className="mt-3 text-center">
@@ -31,7 +31,7 @@ function Products() {
                         </S.ProductCard>
                     </Col>
                     <Col md="4">
-                        <S.ProductCard className="my-5">
+                        <S.ProductCard className="my-5 mx-2 p-2">
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image2} fluid/>
                                 <Card.Title className="mt-3 text-center">
@@ -46,7 +46,7 @@ function Products() {
                     </Col>
  
                     <Col md="4">
-                        <S.ProductCard className="my-5">
+                        <S.ProductCard className="my-5 mx-2 p-2">
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image3} fluid/>
                                 <Card.Title className="mt-3 text-center">

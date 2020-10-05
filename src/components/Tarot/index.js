@@ -13,7 +13,7 @@ function Tarot() {
             <Container className="py-5">
 
                 <Row className="justify-content-center">
-                    <Col lg="4">
+                    <Col lg="4" className="mb-4">
                         <Image src={Tarot1} fluid/>
                     </Col>
                     <Col lg="6">
@@ -47,7 +47,7 @@ function Tarot() {
                 </Row>
 
                 <Row className="my-5 justify-content-center">
-                    <Col lg="4">
+                    <Col lg="4" className="mb-4">
                         <Image src={Tarot3} fluid></Image>
                     </Col>
                     <Col lg="6">

@@ -1,11 +1,12 @@
 import styled from 'styled-components';
-import { Image} from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import Slider from "react-slick";
 
 export const SectionTestimonials = styled.section `
     background-color: white;
     font-family: 'Comfortaa', cursive;
     font-weight: 300;
+    overflow:auto;
 `
 export const Carousel = styled(Slider) `
   .slick-dots li button {
@@ -19,8 +20,6 @@ export const Title = styled.h1 `
     font-size: 3.0rem;
     line-height: 0.5;   
     font-weight: bold;
-    font-family: 'Comfortaa', cursive;
-
 `
 
 export const ImageThumb = styled(Image) `
@@ -47,6 +46,7 @@ export const Card = styled.div `
     -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
     box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
     background-color: #DABFE3 !important;
+    margin: 1em;
 
     &:after {
         position: absolute;

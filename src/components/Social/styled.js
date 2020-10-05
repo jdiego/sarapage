@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const SectionSocial = styled.section `
     background-color: white;
+    overflow:auto;
 `
 
 export const Title = styled.h1`
@@ -10,6 +11,5 @@ export const Title = styled.h1`
     font-size: 3.0rem;
     line-height: 0.5;   
     font-weight: bold;
-    font-family: 'Comfortaa', cursive;
 
 `
