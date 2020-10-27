@@ -12,12 +12,6 @@ export const Lead = styled.p `
     text-align: justify;
     text-justify: inter-word;
 `
-export const Highlight = styled.span `
-    background-color: rgb(218,191,227, 0.6);
-    padding: 0.3rem;
-    color: white;
-`
-
 export const Wrapper = styled(Container)`
     background-color: #DABFE3;
     position: relative;
