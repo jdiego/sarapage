@@ -3,9 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 //
-import Tarot1 from '../../assets/tarot1.png';
 import Tarot2 from '../../assets/tarot2.png';
-import Tarot3 from '../../assets/tarot3.png';
 import * as S from './styled.js';
 
 function NextArrow(props) {
@@ -69,7 +67,7 @@ function Testimonials() {
                                     </div>
                                 </S.Card>
                                 <div className="d-flex align-items-center ml-3">
-                                    <S.ImageThumb src={Tarot1} alt="" className="rounded-circle mr-3" />
+                                    <S.ImageThumb src={Tarot2} alt="" className="rounded-circle mr-3" />
                                     <h6 className="font-weight-bold mb-0">Mrs. Anderson</h6> <S.P13> Matrix</S.P13>
                                 </div>
                             </S.CarouselItem>
@@ -99,7 +97,7 @@ function Testimonials() {
                                 </div>
                             </S.Card>
                             <div className="d-flex align-items-center ml-3">
-                                <S.ImageThumb src={Tarot3} alt="" className="rounded-circle mr-3" />
+                                <S.ImageThumb src={Tarot2} alt="" className="rounded-circle mr-3" />
                                 <h6 className="font-weight-bold mb-0">Dexter</h6><S.P13> Dexter</S.P13>
                             </div>
                         </S.CarouselItem>
