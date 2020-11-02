@@ -21,12 +21,12 @@ function Products() {
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image1} fluid/>
                                 <Card.Title className="mt-3 text-center">
-                                    Card title
+                                    Consulta de 30 min online
                                 </Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </Card.Text>
-                                <S.ProductLink href="#" className="btn btn-outline">Go somewhere</S.ProductLink>
+                                <S.ProductLink href="#" className="btn btn-outline">Comprar</S.ProductLink>
                             </S.ProductCardBody>
                         </S.ProductCard>
                     </Col>
@@ -35,7 +35,7 @@ function Products() {
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image2} fluid/>
                                 <Card.Title className="mt-3 text-center">
-                                    Card title
+                                    Consulta de 1 hora online
                                 </Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -50,7 +50,7 @@ function Products() {
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image3} fluid/>
                                 <Card.Title className="mt-3 text-center">
-                                    Card title
+                                    Consulta de 1h presencial
                                 </Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
