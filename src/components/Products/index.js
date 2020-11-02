@@ -21,12 +21,16 @@ function Products() {
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image1} fluid/>
                                 <Card.Title className="mt-3 text-center">
-                                    Consulta de 30 min online
+                                    Consulta Online 30 Minutos 
                                 </Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    <h2 class="card-title pricing-card-title">R$120</h2>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>30 minutos de consulta</li>
+                                        <li>Suporte total via Whatsapp</li>
+                                    </ul>
                                 </Card.Text>
-                                <S.ProductLink href="#" className="btn btn-outline">Comprar</S.ProductLink>
+                                <S.ProductLink href="#" className="btn btn-outline">Agendar</S.ProductLink>
                             </S.ProductCardBody>
                         </S.ProductCard>
                     </Col>
@@ -35,12 +39,16 @@ function Products() {
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image2} fluid/>
                                 <Card.Title className="mt-3 text-center">
-                                    Consulta de 1 hora online
+                                    Consulta Online 60 Minutos
                                 </Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    <h2 class="card-title pricing-card-title">R$200</h2>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>1 Hora de consulta</li>
+                                        <li>Suporte total via Whatsapp</li>
+                                    </ul>
                                 </Card.Text>
-                                <S.ProductLink href="#" className="btn btn-outline">Go somewhere</S.ProductLink>
+                                <S.ProductLink href="#" className="btn btn-outline">Agendar</S.ProductLink>
                             </S.ProductCardBody>
                         </S.ProductCard>
                     </Col>
@@ -50,12 +58,16 @@ function Products() {
                             <S.ProductCardBody className="text-center">
                                 <S.ProductImage src={Image3} fluid/>
                                 <Card.Title className="mt-3 text-center">
-                                    Consulta de 1h presencial
+                                    Consulta Presencial 60 minutos
                                 </Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    <h2 class="card-title pricing-card-title">R$250</h2>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>1 Hora de consulta</li>
+                                        <li>Atendimento presencial</li>
+                                    </ul>
                                 </Card.Text>
-                                <S.ProductLink href="#" className="btn btn-outline">Go somewhere</S.ProductLink>
+                                <S.ProductLink href="#" className="btn btn-outline">Agendar</S.ProductLink>
                             </S.ProductCardBody>
                         </S.ProductCard>
                     </Col>

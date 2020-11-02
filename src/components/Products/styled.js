@@ -34,3 +34,7 @@ export const ProductLink = styled.a`
     color: #FF3399 !important;
 `
 
+export const CardTitle = styled(Card.Text)`
+    margim-bottom: 0.75rem;
+`
+
