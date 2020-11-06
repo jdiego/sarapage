@@ -2,8 +2,7 @@ import styled from 'styled-components';
 import { Button } from 'react-bootstrap';
 
 export const SectionContact = styled.section`
-    color: #DABFE3;
-    padding: 25px 0;
+    color: white;
     background: #858CBC;
     overflow:auto;
 
@@ -24,6 +23,7 @@ export const ContactBox = styled.div`
 `
 
 export const ListIco = styled.ul`
+    font-size: 1.2rem;
     line-height: 2;
     list-style: none;
     padding-left: 0;
@@ -44,4 +44,17 @@ export const SocialsList = styled.div`
 export const ContactButton = styled(Button)`
     background-color: #DABFE3 !important;
     color: #FF3399 !important;
+`
+
+export const ContactLink = styled.a `
+    text-decoration: none; 
+    color: white;
+
+    :hover {
+        color:#DABFE3;
+        text-decoration: none;
+        span {
+            color: green;
+        }
+    }
 `
