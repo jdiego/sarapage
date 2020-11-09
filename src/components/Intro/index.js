@@ -9,7 +9,7 @@ function Intro() {
 
     return (
         <S.SectionIntro>
-            <Container className="py-5">
+            <Container className="py-5 mb-5">
                 <Row>
                     <Col className="text-center">
                         <S.Lead>
@@ -20,10 +20,11 @@ function Intro() {
                         </S.Lead>
                     </Col>
                 </Row>
-
-                    <S.Wrapper className = "mt-5">
-                        <Row className = "p-5">
-
+            </Container>
+            <S.WaveContainer>
+                <S.Wave></S.Wave>
+                <S.Wrapper>
+                        <Row>
                             <S.BenefitsCol lg="4" >
                                 <S.IconCircle style={{background: "#926FF6"}}>
                                     <FaShareAlt style={{color: "white", fontSize:"1.5rem"}}/>
@@ -49,8 +50,8 @@ function Intro() {
                             </S.BenefitsCol>
                         </Row>
                     </S.Wrapper>
-
-            </Container>
+            </S.WaveContainer>
+            
         </S.SectionIntro>
     );
 }
