@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dcd40685e9fdd140777ba96f916e7a8e",
+    "revision": "a3911054040f3e9424600127df7f51a5",
     "url": "/sarapage/index.html"
   },
   {
-    "revision": "27be20bd62c4c1c9e107",
+    "revision": "1c6012449615c2e01ecf",
     "url": "/sarapage/static/css/2.dd290a77.chunk.css"
   },
   {
-    "revision": "a356191cc4cb93f8e2a4",
+    "revision": "da6ef46fe55e424b369f",
     "url": "/sarapage/static/css/main.e00842d2.chunk.css"
   },
   {
-    "revision": "27be20bd62c4c1c9e107",
-    "url": "/sarapage/static/js/2.d9aea25e.chunk.js"
+    "revision": "1c6012449615c2e01ecf",
+    "url": "/sarapage/static/js/2.fd8e9c63.chunk.js"
   },
   {
     "revision": "4fdb92f5a0a11be5d79ae606cb253c2b",
-    "url": "/sarapage/static/js/2.d9aea25e.chunk.js.LICENSE.txt"
+    "url": "/sarapage/static/js/2.fd8e9c63.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a356191cc4cb93f8e2a4",
-    "url": "/sarapage/static/js/main.1fc9f72e.chunk.js"
+    "revision": "da6ef46fe55e424b369f",
+    "url": "/sarapage/static/js/main.4730866d.chunk.js"
   },
   {
     "revision": "bf32f1161b160da50a6b",
