@@ -23,14 +23,14 @@ function Products() {
                                 <Card.Title className="mt-3 text-center">
                                     Consulta Online 30 Minutos 
                                 </Card.Title>
-                                <Card.Text>
-                                    <h2 class="card-title pricing-card-title">R$120</h2>
-                                    <ul class="list-unstyled mt-3 mb-4">
-                                        <li>30 minutos de consulta</li>
-                                        <li>Suporte total via Whatsapp</li>
-                                    </ul>
-                                </Card.Text>
-                                <S.ProductLink href="#" className="btn btn-outline">Agendar</S.ProductLink>
+                                <Card.Body>
+                                    <h2 className="card-title pricing-card-title">R$120</h2>
+                                        <ul className="list-unstyled mt-3 mb-4">
+                                            <li>30 minutos de consulta</li>
+                                            <li>Suporte total via Whatsapp</li>
+                                        </ul>
+                                    <S.ProductLink href="#" className="btn btn-outline">Agendar</S.ProductLink>
+                                </Card.Body>
                             </S.ProductCardBody>
                         </S.ProductCard>
                     </Col>
@@ -41,13 +41,13 @@ function Products() {
                                 <Card.Title className="mt-3 text-center">
                                     Consulta Online 60 Minutos
                                 </Card.Title>
-                                <Card.Text>
-                                    <h2 class="card-title pricing-card-title">R$200</h2>
-                                    <ul class="list-unstyled mt-3 mb-4">
+                                <Card.Body>
+                                    <h2 className="card-title pricing-card-title">R$200</h2>
+                                    <ul className="list-unstyled mt-3 mb-4">
                                         <li>1 Hora de consulta</li>
                                         <li>Suporte total via Whatsapp</li>
                                     </ul>
-                                </Card.Text>
+                                </Card.Body>
                                 <S.ProductLink href="#" className="btn btn-outline">Agendar</S.ProductLink>
                             </S.ProductCardBody>
                         </S.ProductCard>
@@ -60,13 +60,13 @@ function Products() {
                                 <Card.Title className="mt-3 text-center">
                                     Consulta Presencial 60 minutos
                                 </Card.Title>
-                                <Card.Text>
-                                    <h2 class="card-title pricing-card-title">R$250</h2>
-                                    <ul class="list-unstyled mt-3 mb-4">
+                                <Card.Body>
+                                    <h2 className="card-title pricing-card-title">R$250</h2>
+                                    <ul className="list-unstyled mt-3 mb-4">
                                         <li>1 Hora de consulta</li>
                                         <li>Atendimento presencial</li>
                                     </ul>
-                                </Card.Text>
+                                </Card.Body>
                                 <S.ProductLink href="#" className="btn btn-outline">Agendar</S.ProductLink>
                             </S.ProductCardBody>
                         </S.ProductCard>
