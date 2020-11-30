@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/sarapage/static/js/main.e25a06da.chunk.js",
-    "main.js.map": "/sarapage/static/js/main.e25a06da.chunk.js.map",
+    "main.js": "/sarapage/static/js/main.1bae6c13.chunk.js",
+    "main.js.map": "/sarapage/static/js/main.1bae6c13.chunk.js.map",
     "runtime-main.js": "/sarapage/static/js/runtime-main.bdc2462b.js",
     "runtime-main.js.map": "/sarapage/static/js/runtime-main.bdc2462b.js.map",
-    "static/js/2.03d2b668.chunk.js": "/sarapage/static/js/2.03d2b668.chunk.js",
-    "static/js/2.03d2b668.chunk.js.map": "/sarapage/static/js/2.03d2b668.chunk.js.map",
+    "static/js/2.4a2cf719.chunk.js": "/sarapage/static/js/2.4a2cf719.chunk.js",
+    "static/js/2.4a2cf719.chunk.js.map": "/sarapage/static/js/2.4a2cf719.chunk.js.map",
     "index.html": "/sarapage/index.html",
-    "precache-manifest.a2af34c8593c8548c0f245c56bb1c18d.js": "/sarapage/precache-manifest.a2af34c8593c8548c0f245c56bb1c18d.js",
+    "precache-manifest.56822594f1cbf23701eb3ac9ed4c1b94.js": "/sarapage/precache-manifest.56822594f1cbf23701eb3ac9ed4c1b94.js",
     "service-worker.js": "/sarapage/service-worker.js",
-    "static/js/2.03d2b668.chunk.js.LICENSE.txt": "/sarapage/static/js/2.03d2b668.chunk.js.LICENSE.txt",
+    "static/js/2.4a2cf719.chunk.js.LICENSE.txt": "/sarapage/static/js/2.4a2cf719.chunk.js.LICENSE.txt",
     "static/media/sara.png": "/sarapage/static/media/sara.09bcf13b.png",
     "static/media/tarot1.png": "/sarapage/static/media/tarot1.553eb8ee.png",
     "static/media/tarot2.png": "/sarapage/static/media/tarot2.d3ac6a9c.png",
@@ -17,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bdc2462b.js",
-    "static/js/2.03d2b668.chunk.js",
-    "static/js/main.e25a06da.chunk.js"
+    "static/js/2.4a2cf719.chunk.js",
+    "static/js/main.1bae6c13.chunk.js"
   ]
 }

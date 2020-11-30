@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4eda4de1468cf88f3094f9585bb8bffb",
+    "revision": "e34e02b015b843c10594bcf60a199218",
     "url": "/sarapage/index.html"
   },
   {
-    "revision": "a696ddb759ebdec1cee5",
-    "url": "/sarapage/static/js/2.03d2b668.chunk.js"
+    "revision": "eefd81a4e5e91b6577af",
+    "url": "/sarapage/static/js/2.4a2cf719.chunk.js"
   },
   {
     "revision": "dfef45c58f4fcf6c1c1660b909670eb2",
-    "url": "/sarapage/static/js/2.03d2b668.chunk.js.LICENSE.txt"
+    "url": "/sarapage/static/js/2.4a2cf719.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d6d3ad9194dcde99e94",
-    "url": "/sarapage/static/js/main.e25a06da.chunk.js"
+    "revision": "b38f9481b6c62fa0d4f9",
+    "url": "/sarapage/static/js/main.1bae6c13.chunk.js"
   },
   {
     "revision": "bf32f1161b160da50a6b",
