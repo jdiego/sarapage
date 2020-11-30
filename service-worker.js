@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sarapage/precache-manifest.32f544068bc5350c4762e1560f975eb6.js"
+  "/sarapage/precache-manifest.f5da90ad16bf469edb76d542868619b7.js"
 );
 
 self.addEventListener('message', (event) => {
