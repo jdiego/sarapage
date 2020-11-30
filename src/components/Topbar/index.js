@@ -17,13 +17,13 @@ function Topbar() {
                         <S.TopLink href="#about">Sobre</S.TopLink>
                     </S.TopItem>
                     <S.TopItem>
-                        <S.TopLink href="#">Depoimentos</S.TopLink>
+                        <S.TopLink href="#testimonials">Depoimentos</S.TopLink>
                     </S.TopItem>
                     <S.TopItem>
-                        <S.TopLink href="#">Produtos</S.TopLink>
+                        <S.TopLink href="#products">Produtos</S.TopLink>
                     </S.TopItem>
                     <S.TopItem>
-                        <S.TopLink href="#">Contatos</S.TopLink>
+                        <S.TopLink href="#contact">Contatos</S.TopLink>
                     </S.TopItem>
                 </Nav>
             </Navbar.Collapse>

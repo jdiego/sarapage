@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Container, Row, Col, Form} from 'react-bootstrap';
-import { FaEnvelope, FaMapPin, FaWhatsapp } from 'react-icons/fa'
+import { FaEnvelope, FaInstagram, FaMapPin, FaWhatsapp } from 'react-icons/fa'
 //
 import * as S from './styled.js';
 import ContactMap from '../ContactMap';
@@ -48,14 +48,16 @@ function Contact(){
                             </li>
                             <li>
                                 <S.ContactLink 
-                                href="https://wa.me/+5584999291013?text=I'm%20interested%20in%20your%20car%20for%20sale">
+                                href="https://wa.me/+55849665-0333?text=Olá%20Sara">
                                     <span><FaWhatsapp size="1.5rem"/></span> 
-                                    (84) 99557-0089
+                                    (84) 9665-0333
                                 </S.ContactLink>
                             </li>
                             <li>
-                                <span><FaEnvelope size="1.5rem"/></span> 
-                                contact@example.com
+                                <S.ContactLink href="https://www.instagram.com/asuaterapeuta/">
+                                    <span><FaInstagram size="1.5rem"/></span> @asuaterapeuta
+                                </S.ContactLink>
+                                
                             </li>
                         </S.ListIco>
                         
