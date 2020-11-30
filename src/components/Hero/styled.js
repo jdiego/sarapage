@@ -8,7 +8,7 @@ export const SectionHero = styled.section `
 `
 export const Title = styled.h1 `
     font-size: 6.0rem;
-    line-height: 0.5;   
+    /*line-height: 0.5;  */
     /* font-weight: bold; */
     font-family: 'Sacramento', cursive;
 `
