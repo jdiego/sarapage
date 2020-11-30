@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sarapage/static/css/main.e00842d2.chunk.css",
-    "main.js": "/sarapage/static/js/main.41e06224.chunk.js",
-    "main.js.map": "/sarapage/static/js/main.41e06224.chunk.js.map",
+    "main.js": "/sarapage/static/js/main.9834f13f.chunk.js",
+    "main.js.map": "/sarapage/static/js/main.9834f13f.chunk.js.map",
     "runtime-main.js": "/sarapage/static/js/runtime-main.bdc2462b.js",
     "runtime-main.js.map": "/sarapage/static/js/runtime-main.bdc2462b.js.map",
     "static/css/2.dd290a77.chunk.css": "/sarapage/static/css/2.dd290a77.chunk.css",
     "static/js/2.fd8e9c63.chunk.js": "/sarapage/static/js/2.fd8e9c63.chunk.js",
     "static/js/2.fd8e9c63.chunk.js.map": "/sarapage/static/js/2.fd8e9c63.chunk.js.map",
     "index.html": "/sarapage/index.html",
-    "precache-manifest.f5da90ad16bf469edb76d542868619b7.js": "/sarapage/precache-manifest.f5da90ad16bf469edb76d542868619b7.js",
+    "precache-manifest.98a16cb1752a0c1eb7fec39a3877ae9b.js": "/sarapage/precache-manifest.98a16cb1752a0c1eb7fec39a3877ae9b.js",
     "service-worker.js": "/sarapage/service-worker.js",
     "static/css/2.dd290a77.chunk.css.map": "/sarapage/static/css/2.dd290a77.chunk.css.map",
     "static/css/main.e00842d2.chunk.css.map": "/sarapage/static/css/main.e00842d2.chunk.css.map",
@@ -27,6 +27,6 @@
     "static/css/2.dd290a77.chunk.css",
     "static/js/2.fd8e9c63.chunk.js",
     "static/css/main.e00842d2.chunk.css",
-    "static/js/main.41e06224.chunk.js"
+    "static/js/main.9834f13f.chunk.js"
   ]
 }
