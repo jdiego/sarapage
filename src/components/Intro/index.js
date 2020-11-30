@@ -1,50 +1,57 @@
 import React from 'react';
-import { Container, Row, Col } from '@bootstrap-styled/v4';
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaShareAlt, FaSmile } from 'react-icons/fa'
+import { MdTrendingUp } from 'react-icons/md'
 //
 import * as S from './styled.js';
 
 function Intro() {
- 
+
     return (
         <S.SectionIntro>
-            <Container className="py-5" fluid={false}>
+            <Container className="py-5 mb-5">
                 <Row>
                     <Col className="text-center">
                         <S.Lead>
-                        O Tarot é uma ferramenta de autoconhecimento com 78 cartas, por meio da qual podemos fazer previsões. Assim, 
-                        algo pode ser <S.Highlight>PRÉ-VISTO</S.Highlight> e, com isso, <S.Highlight>PRÉ-ANALISADO</S.Highlight>, 
-                        para que, com nosso livre arbítrio, tenhamos <S.Highlight>CONSCIÊNCIA</S.Highlight> e 
-                        possamos fazer <S.Highlight>ESCOLHAS</S.Highlight> melhores
+                        O Tarot é uma ferramenta de autoconhecimento com 78 cartas, por meio da qual podemos fazer previsões. Assim,
+                        algo pode ser PRÉ-VISTO e, com isso, PRÉ-ANALISADO,
+                        para que, com nosso livre arbítrio, tenhamos CONSCIÊNCIA e
+                        possamos fazer ESCOLHAS melhores
                         </S.Lead>
                     </Col>
                 </Row>
-                <Row className="mt-5">
-                    <S.Wrapper>
+            </Container>
+            <S.WaveContainer>
+                <S.Wave></S.Wave>
+                <S.Wrapper>
                         <Row>
+                            <S.BenefitsCol lg="4" >
+                                <S.IconCircle style={{background: "#926FF6"}}>
+                                    <FaShareAlt style={{color: "white", fontSize:"1.5rem"}}/>
+                                </S.IconCircle>
+                                <h3>Autoconhecimento</h3>
+                                <p>Se conheça mais</p>.
+                            </S.BenefitsCol>
 
-                            <Col lg="4">
-                                <h2>Autoconhecimento</h2>
-                                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies 
-                                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna
-                                </p>.
-                            </Col>
+                            <S.BenefitsCol lg="4">
+                                <S.IconCircle style={{background: "#F3849F"}}>
+                                    <MdTrendingUp style={{color: "white", fontSize:"1.5rem"}}/>
+                                </S.IconCircle>
+                                <h3>Desenvolvimento</h3>
+                                <p> Esteja em constante melhoria </p>.
+                            </S.BenefitsCol>
 
-                            <Col lg="4">
-                                <h2>Desenvolvimento</h2>
-                                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies 
-                                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna
-                                </p>.
-                            </Col>
-                            <Col lg="4">
-                                <h2>Consciência</h2>
-                                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies 
-                                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna
-                                </p>.
-                            </Col>
+                            <S.BenefitsCol lg="4">
+                                <S.IconCircle style={{background: "#79CFFF"}}>
+                                    <FaSmile style={{color:"white", fontSize:"1.5rem"}}/>
+                                </S.IconCircle>
+                                <h3>Consciência</h3>
+                                <p> Perceba e esteja presente no agora </p>.
+                            </S.BenefitsCol>
                         </Row>
                     </S.Wrapper>
-                </Row>
-            </Container>
+            </S.WaveContainer>
+            
         </S.SectionIntro>
     );
 }

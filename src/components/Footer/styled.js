@@ -1,8 +1,7 @@
 import styled from 'styled-components';
-import { Footer } from '@bootstrap-styled/v4';
 
 
-export const SectionFooter = styled(Footer) `
+export const SectionFooter = styled.section`
     text-align: center;
     color: #DABFE3;
     padding: 25px 0;
